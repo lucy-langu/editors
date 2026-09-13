@@ -1,0 +1,36 @@
+{
+  "name": "lucy-language",
+  "displayName": "Lucy Language",
+  "description": "Syntax highlighting for the Lucy programming language",
+  "version": "1.0.0",
+  "publisher": "nimacpp",
+  "license": "GPL-3.0-only",
+  "engines": {
+    "vscode": ">=1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "lucy",
+        "aliases": [
+          "Lucy",
+          "lucy"
+        ],
+        "extensions": [
+          ".lucy"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "lucy",
+        "scopeName": "source.lucy",
+        "path": "./syntax/lucy.tmLanguage.json"
+      }
+    ]
+  }
+}
