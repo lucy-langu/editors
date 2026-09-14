@@ -22,6 +22,10 @@
   "activationEvents": [
   "onCommand:lucy.runFile"
   ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/lucy-langu/editors.git"
+  },
   "contributes": {
     "languages": [
       {
